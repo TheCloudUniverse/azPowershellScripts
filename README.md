@@ -8,4 +8,4 @@
  - SyncStorageAccount.ps1
 
 ### Script to find private and public IP addresses from a list of IPs
- - FindIPtype.ps1
+ - FindIPType.ps1
