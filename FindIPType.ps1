@@ -18,12 +18,12 @@ function FindIPtype {
 	}
 }
 
-$filePath = "C:\Users\navee\Documents\TheCloudUniverse\PS scripts\IpsList.txt"
+$filePath = "C:\TheCloudUniverse\PS scripts\IpsList.txt"
 $unique = Get-Content $filePath | Get-Unique
 Set-Content -Path $filePath -Value $unique
 
 #Get the contnets of the filePath
-$content = Get-Content -Path 'C:\Users\navee\Documents\TheCloudUniverse\PS scripts\IpsList.txt'
+$content = Get-Content -Path 'C:\TheCloudUniverse\PS scripts\IpsList.txt'
 
 #loop
 foreach ($line in $content) {
