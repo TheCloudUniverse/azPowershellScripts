@@ -12,3 +12,6 @@
 
 ### Find the custom firewall rules of Azure SQL Server, whether IPs or public or private
  - FindCustomSQLFirewallRules.ps1
+
+
+## Youtube Channel [TheCloudUniverse](https://www.youtube.com/channel/UChc971ciVpUrxirOAwBnpRQ)
