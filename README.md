@@ -7,5 +7,8 @@
  - CopyStorageAccount.ps1
  - SyncStorageAccount.ps1
 
-### Script to find private and public IP addresses from a list of IPs
+### Find whether the IP is private or public from a list of IPs
  - FindIPType.ps1
+
+### Find the custom firewall rules of Azure SQL Server, whether IPs or public or private
+ - FindCustomSQLFirewallRules.ps1
